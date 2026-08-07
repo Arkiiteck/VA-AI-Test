@@ -1,0 +1,48 @@
+/* Design tokens extraidos del Design System de Figma (B.P.).
+   Se van a ir completando a medida que exploramos cada frame. */
+:root {
+  /* Brand */
+  --brand-primary: #c32059;
+  --brand-secondary: #6f1d5d;
+  --brand-black: #263238;
+  --brand-white: #ffffff;
+
+  /* Gray Scale */
+  --gray-200: #ececef;
+  --gray-300: #d5d7dd;
+  --gray-400: #bbbbbb;
+
+  /* Semantic */
+  --red-500: #de1515;
+  --transparent-light-fucsia: rgba(187, 157, 181, 0.2);
+
+  /* Typography */
+  --font-family-roboto: "Roboto", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-2xl: 32px;
+
+  /* Spacing (gap) */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 12px;
+  --gap-xl: 40px;
+
+  /* Padding */
+  --padding-5xs: 2px;
+  --padding-xs: 10px;
+  --padding-sm: 12px;
+  --padding-2xl: 52px;
+
+  /* Border radius */
+  --radius-2xs: 8px;
+  --radius-md: 18px;
+  --radius-lg: 20px;
+  --radius-3xl: 32px;
+
+  /* Icon */
+  --icon-size-md: 16px;
+
+  /* Shadow */
+  --shadow-1: 2px 10px 50px 0px var(--transparent-light-fucsia);
+}

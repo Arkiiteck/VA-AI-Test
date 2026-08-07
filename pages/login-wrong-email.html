@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In - Wrong Email</title>
+  <link rel="stylesheet" href="../assets/css/tokens.css" />
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/login.css" />
+</head>
+<body data-login-view="wrong-email">
+  <div class="login-page">
+    <div class="login-page__bg">
+      <img src="../assets/img/bg-shapes.svg" alt="" />
+    </div>
+
+    <div class="login-card">
+      <h1 class="login-card__title">Login to your account</h1>
+
+      <form class="login-form" data-login-form novalidate>
+        <div class="field">
+          <label class="field__label" for="email">Email Address</label>
+          <input
+            class="field__input"
+            type="email"
+            id="email"
+            name="email"
+            data-field="email"
+            placeholder="Enter your email address"
+            autocomplete="email"
+          />
+          <div class="field__error">
+            <img src="../assets/img/icon-triangle-exclamation.svg" alt="" />
+            <span>The email address you entered is not registered</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="password">Password</label>
+          <input
+            class="field__input"
+            type="password"
+            id="password"
+            name="password"
+            data-field="password"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+          />
+        </div>
+
+        <div class="login-actions">
+          <a href="#" class="btn-link" data-action="forgot-password">Forgot your password?</a>
+          <button type="submit" class="btn-primary" data-action="submit" disabled>Log in</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="../assets/js/login.js"></script>
+</body>
+</html>
